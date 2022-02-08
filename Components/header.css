@@ -1,0 +1,35 @@
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.backgroundimage{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.backgroundimage > img{
+    border-radius: 50px;
+    margin-top: 10px;
+    width: 85px;
+    height: 80px;
+}
+
+.NaV{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.NaVs{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
